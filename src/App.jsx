@@ -313,10 +313,7 @@ function App() {
   const [showCelebration, setShowCelebration] = useState(null);
   const [newGradeName, setNewGradeName] = useState('');
   const [confirmDialog, setConfirmDialog] = useState(null);
-  const [customPresets, setCustomPresets] = useState({
-    '원피스 해적왕': { prizes: { A: 2, B: 3, C: 5, D: 10, E: 20, F: 30, G: 40, 라스트원: 1 }, price: 15000 },
-    '포켓몬 피카츄': { prizes: { A: 1, B: 2, C: 4, D: 8, E: 15, F: 25, G: 35, 라스트원: 1 }, price: 15000 }
-  });
+  const [customPresets, setCustomPresets] = useState({});
   const [newPresetName, setNewPresetName] = useState('');
 
   const sound = useSoundEngine(isSoundOn);
